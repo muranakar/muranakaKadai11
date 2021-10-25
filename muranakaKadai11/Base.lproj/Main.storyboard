@@ -27,7 +27,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="BxH-fm-IaC" kind="show" identifier="PrefectureSelect" id="1Kq-s7-OYa"/>
+                                    <segue destination="BxH-fm-IaC" kind="show" identifier="PrefectureSelectSegue" id="1Kq-s7-OYa"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fG-do-FXK">

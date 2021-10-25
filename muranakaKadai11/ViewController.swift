@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifier = segue.identifier else { return }
         switch identifier {
-        case "PrefectureSelect":
+        case "PrefectureSelectSegue":
             let nav = segue.destination as! UINavigationController // swiftlint:disable:this force_cast
             let prefecturesVC = nav.topViewController
             as! PrefecturesTableViewController // swiftlint:disable:this force_cast
