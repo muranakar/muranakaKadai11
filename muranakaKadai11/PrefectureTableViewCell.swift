@@ -8,18 +8,9 @@
 import UIKit
 
 class PrefectureTableViewCell: UITableViewCell {
+    @IBOutlet private weak var prefectureNameLabel: UILabel!
 
-    @IBOutlet weak var prefectureNameLabel: UILabel!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    func configure(name: String) {
+        prefectureNameLabel.text = name
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }
